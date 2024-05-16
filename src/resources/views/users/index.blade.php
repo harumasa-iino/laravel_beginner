@@ -48,4 +48,9 @@
             </div>
         </div>
     </div>
+    {{Debugbar::info('This is information');}}
+    {{Debugbar::error('This is error');}}
+    {{Debugbar::warning('This is warning');}}
+    {{Debugbar::addMessage('This is message', 'custom label');}}
+    {{Debugbar::info($users);}}
 @stop
